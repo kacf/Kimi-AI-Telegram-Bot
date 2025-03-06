@@ -1,3 +1,3 @@
-# Kimi-AI-Telegram-Bot
+
 # Nothing just a ching chong AI 
-    (better thn shit gpt)
+    (u can only get 3 replies per minute, still better thn shit gpt)
