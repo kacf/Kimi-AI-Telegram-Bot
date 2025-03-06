@@ -3,6 +3,7 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import requests
+from pyrogram.enums import ChatAction
 import json
 
 # Configuration (replace with your actual keys)
@@ -46,7 +47,7 @@ def query_moonshot(prompt: str) -> str:
 # Message handler for private chats
 @app.on_message(filters.private & filters.text)
 async def private_chat_handler(client: Client, message: Message):
-    await message.reply_chat_action("typing")
+    await message.reply_chat_action(ChatAction.TYPING)  # Use enum instead of string
     response = query_moonshot(message.text)
     await message.reply_text(response)
 
