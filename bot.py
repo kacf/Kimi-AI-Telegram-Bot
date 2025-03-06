@@ -1,4 +1,4 @@
-
+#give credit or ur mom ill get pegged by pajeets
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
