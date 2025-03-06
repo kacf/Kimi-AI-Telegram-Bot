@@ -43,6 +43,11 @@ def query_moonshot(prompt: str) -> str:
     except Exception as e:
         return f"Error processing request: {str(e)}"
 
+# Start command handler
+@app.on_message(filters.command("start"))
+async def start_command(client: Client, message: Message):
+    await message.reply_text("Hello! 👋 I'm a bot powered by Moonshot AI. Send me any message and I'll do my best to help you out!")
+
 # Message handler for private chats
 @app.on_message(filters.private & filters.text)
 async def private_chat_handler(client: Client, message: Message):
