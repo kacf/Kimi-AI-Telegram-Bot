@@ -8,7 +8,7 @@ import json
 # Configuration (replace with your actual keys)
 API_ID = 26788480  # Get from https://my.telegram.org
 API_HASH = "858d65155253af8632221240c535c314"  # Get from https://my.telegram.org
-BOT_TOKEN = "7224277474:AAGyhCxdvKzNpe2sgDLwtks4015eZcMIohQ"  # Get from @BotFather
+BOT_TOKEN = "7878884522:AAH5hiAZ4-O_gWhcdwpDWlFqL1lIdXGTrwE"  # Get from @BotFather
 MOONSHOT_API_KEY = "sk-7JqUhqmM5qPFXKgBDmIfJpeUJNcq4pDnsr09OkZXKsZnAVbc"  # Get from Moonshot AI
 
 # Initialize Pyrogram client
